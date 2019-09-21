@@ -16,7 +16,7 @@ namespace ByteBank
 
             UsarSistema();
 
-            Console.WriteLine("RodÔ");
+            Console.WriteLine("Teste");
 
             Console.ReadLine();
         }
