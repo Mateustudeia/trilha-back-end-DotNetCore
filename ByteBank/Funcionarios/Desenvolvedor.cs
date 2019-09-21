@@ -10,7 +10,7 @@ namespace ByteBank.Funcionarios
     {
         public Desenvolvedor(string cpf) : base(cpf, 7000)
         {
-
+            Console.WriteLine("Desenvolvedor Criado!");
         }
 
         public override void AumentarSalario()
