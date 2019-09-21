@@ -15,7 +15,7 @@ namespace ByteBank.Sistemas
 
             if (usuarioAutenticado)
             {
-                Console.WriteLine("Bem vindo ao Sistema!");
+                Console.WriteLine("Usuário autenticado.\nBem vindo ao Sistema!");
                 return true;
             }
             else
