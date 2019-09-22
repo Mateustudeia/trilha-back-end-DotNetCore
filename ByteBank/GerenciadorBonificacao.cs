@@ -14,6 +14,8 @@ namespace ByteBank
         public void Registrar(Funcionario funcionario)
         {
             _totalBonificacao += funcionario.GetBonificacao();
+
+            Console.WriteLine("Alteração na minha branch master1");
         }
         
         public double GetTotalBonificacao()
