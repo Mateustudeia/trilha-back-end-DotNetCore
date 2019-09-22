@@ -18,7 +18,7 @@ namespace ByteBank.Funcionarios
         {
             CPF = cpf;
             Salario = salario;
-            TotalDeFuncionarios++;
+            TotalDeFuncionarios++; 
             Console.WriteLine("Commit com a branch");
         }
 
